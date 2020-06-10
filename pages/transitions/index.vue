@@ -15,6 +15,12 @@
       </NuxtLink>
       <NuxtLink
         class="link"
+        :to="{ name: 'transitions-transformations' }"
+      >
+        Transitions + transformations
+      </NuxtLink>
+      <NuxtLink
+        class="link"
         :to="{ name: 'transitions-birds' }"
       >
         Birds

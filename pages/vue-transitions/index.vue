@@ -3,21 +3,21 @@
     <section class="main__body">
       <NuxtLink
         class="link"
-        :to="{ name: 'transitions' }"
+        :to="{ name: 'vue-transitions-sidebar-transition' }"
       >
-        Transitions
+        Sidebar
       </NuxtLink>
       <NuxtLink
         class="link"
-        :to="{ name: 'animations' }"
+        :to="{ name: 'vue-transitions-rectangles' }"
       >
-        Animations
+        Rectangles
       </NuxtLink>
       <NuxtLink
         class="link"
-        :to="{ name: 'vue-transitions' }"
+        :to="{ name: 'vue-transitions-transformations' }"
       >
-        Vue transitions
+        Transitions + transformations
       </NuxtLink>
     </section>
     <section class="main__footer">
@@ -30,5 +30,5 @@
 import { Vue, Component } from 'nuxt-property-decorator'
 
 @Component
-export default class IndexPage extends Vue {}
+export default class VueTransitionsIndexPage extends Vue {}
 </script>

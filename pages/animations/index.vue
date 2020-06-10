@@ -11,19 +11,25 @@
         class="link"
         :to="{ name: 'animations-sprites-moves' }"
       >
-        Complex sprite moves
+        Sequencial sprite moves
       </NuxtLink>
       <NuxtLink
         class="link"
-        :to="{ name: 'animations-my-sprite' }"
+        :to="{ name: 'animations-loader' }"
       >
-        My Sprite
+        Loader
       </NuxtLink>
       <NuxtLink
         class="link"
-        :to="{ name: 'animations-other-examples' }"
+        :to="{ name: 'animations-other-loaders' }"
       >
-        Other examples
+        Other loaders
+      </NuxtLink>
+      <NuxtLink
+        class="link"
+        :to="{ name: 'animations-waves' }"
+      >
+        Waves
       </NuxtLink>
     </section>
     <section class="main__footer">
