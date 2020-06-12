@@ -168,23 +168,4 @@ export default class SidebarMenu extends Vue {
   transition: 0.4s;
 }
 
-// .overlay-enter {
-//   opacity: 0;
-// }
-// .overlay-enter-active {
-//   transition: 1s;
-// }
-// .overlay-enter-to {
-//   opacity: 1;
-// }
-// .overlay-leave {
-//   opacity: 1;
-// }
-// .overlay-leave-active {
-//   transition: 1s;
-// }
-// .overlay-leave-to {
-//   opacity: 0;
-// }
-
 </style>

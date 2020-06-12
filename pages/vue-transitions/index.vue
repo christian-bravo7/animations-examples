@@ -3,21 +3,27 @@
     <section class="main__body">
       <NuxtLink
         class="link"
+        :to="{ name: 'vue-transitions-concepts' }"
+      >
+        Concepts
+      </NuxtLink>
+      <NuxtLink
+        class="link"
+        :to="{ name: 'vue-transitions-concepts-2' }"
+      >
+        Concepts part II
+      </NuxtLink>
+      <NuxtLink
+        class="link"
+        :to="{ name: 'vue-transitions-concepts-3' }"
+      >
+        Concepts part III
+      </NuxtLink>
+      <NuxtLink
+        class="link"
         :to="{ name: 'vue-transitions-sidebar-transition' }"
       >
         Sidebar
-      </NuxtLink>
-      <NuxtLink
-        class="link"
-        :to="{ name: 'vue-transitions-rectangles' }"
-      >
-        Rectangles
-      </NuxtLink>
-      <NuxtLink
-        class="link"
-        :to="{ name: 'vue-transitions-transformations' }"
-      >
-        Transitions + transformations
       </NuxtLink>
     </section>
     <section class="main__footer">

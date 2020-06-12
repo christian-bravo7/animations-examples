@@ -2,6 +2,7 @@
   <main class="main">
     <section class="main__body">
       <div
+        class="box"
         :class="{
           'box-state-1': !isActive,
           'box-state-2': isActive,
@@ -30,6 +31,11 @@ export default class TransitionsBoxes extends Vue {
 </script>
 
 <style lang="scss" scoped>
+.box {
+  transition-property: background-color, width, height;
+  transition-duration: 2s;
+}
+
 .box-state-1 {
   width: 200px;
   height: 200px;

@@ -217,20 +217,20 @@ h2 {
 
 /*Transformaciones: Translate*/
 
-// .container_2 {
-//   perspective: 20px;
-//   perspective-origin: center;
-// }
+.container_2 {
+  perspective: 20px;
+  perspective-origin: center;
+}
 
 .container_2:hover .cuadrado_2 {
-  transform: translate(100px, 50px);
-  // transform: translateZ(10px);
+  // transform: translate(100px, 50px);
+  transform: translateZ(10px);
 }
 
 /*Transformaciones: Scale*/
 
 .container_3:hover .cuadrado_3{
-  transform: scale(0.5);
+  transform: scale(0.5, 1.4);
   // transform: scaleX(0.5);
   // transform: scaleY(0.5);
 }
@@ -248,7 +248,7 @@ h2 {
 
   &:hover .cuadrado{
     &--a {
-      transform-origin: left;
+      transform-origin: 100%;
       transform: rotateY(45deg);
     }
 
